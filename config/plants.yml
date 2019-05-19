@@ -1,0 +1,27 @@
+- name: Calathea
+  sunlight:
+   - low
+  #sun_type: indirect
+  water_interval: 2
+- name: Pincushion Cactus
+  sunlight:
+   - high
+  #sun_type: direct
+  water: 6
+- name: Philodendron
+  sunlight:
+   - low
+   - medium
+   - high
+  #sun_type: any
+  water_interval: 3
+- name: Zebra Plant
+  sunlight:
+   - high
+  #sun_type: indirect
+  water_interval: 1
+- name: ZZ Plant
+  sunlight:
+    - medium
+  #sun_type: indirect
+  water_interval: 2
