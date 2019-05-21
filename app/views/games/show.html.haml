@@ -1,0 +1,8 @@
+#game
+  - @game.board.each do |row|
+    .row
+      - row.each do |space|
+        .space
+          - if space.present?
+            .pot
+              .soil

@@ -1,0 +1,10 @@
+%h1 City Grows!
+
+= form_for(:game) do |f|
+  = f.submit "New Game"
+
+%h2 Load game
+%ol
+  - @games.each do |game|
+    %li
+      = link_to "Save #{game.id}", game_path(game)
